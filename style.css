@@ -1,0 +1,383 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    background-size:cover;
+}
+
+a 
+{
+    color: white;
+}
+
+header 
+{
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+header nav 
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+}
+
+header nav .logo a 
+{
+ color: white;
+ text-decoration: none;
+ font-weight: 700;
+ font-size: 20px;
+}
+
+.logo img
+{
+    width: 40px;
+    height: 40px;
+
+}
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul a 
+{
+ color: white;
+ text-decoration: none;
+}
+
+nav ul li a:hover
+{
+color: #0ba2c0;
+}
+
+nav .menu 
+{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+nav .menu .menu-buton
+{
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding:  12px 14px;
+    border-radius: 56px;
+}
+
+nav .menu .menu-buton:hover
+{
+ background-color: #0ba2c0;
+ color: white;
+
+}
+
+img 
+{
+    border-radius: 56px;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.web-tasarım 
+{
+    margin-left: 30%;
+    width: 850px;
+    height: 240px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 56px;
+}
+
+.web-yazılım
+{
+    margin-left: 30%;
+    width: 850px;
+    height: 300px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 56px;
+}
+
+.seo-hızmet
+{
+    margin-left: 30%;
+    width: 850px;
+    height: 240px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 56px;
+}
+
+.google-ads-danısmanlık 
+{
+    margin-left: 30%;
+    width: 850px;
+    height: 270px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 56px;
+}
+
+.ıletısım 
+{
+    color: white;
+    margin-left: 45%;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.container2
+{
+ width: 80%;
+ margin: auto; 
+ border-bottom: 2px solid rgba(255, 255, 255, 0.3);  
+}
+
+.container3
+{
+ width: 80%;
+ margin: auto; 
+ border-bottom: 2px solid rgba(255, 255, 255, 0.3);  
+}
+
+.container4 
+{
+    width: 80%;
+    max-width: 600px;
+}
+
+.container5 
+{
+    width: 80%;
+    margin: auto; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.container6
+{
+    width: 80%;
+    margin: auto; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.container7
+{
+    width: 80%;
+    margin: auto; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.container8
+{
+    width: 30%;
+    margin-left: 10%; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.container9
+{
+    width: 80%;
+    margin-left: 10%; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);   
+}
+
+label 
+{
+    width: 400px;
+    height: 200px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 48px;
+    border-radius: 56px;
+    margin-left: 1%;
+}
+
+input
+{
+    background-image: url(icon.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    color: red;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 50px;
+    font-size: larger;
+}
+
+.ıletısımbılgı
+{
+    margin-left: 35%;
+    width: 600px;
+    height: 280px;
+    color: #0ba2c0;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding:  16px 54px;
+    border-radius: 56px;  
+}
+
+.contact-box 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-box
+{
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;
+}
+
+.whatsapp-box
+{
+    position: absolute;
+    left: 34%;
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;
+}
+
+.ınstagram-box
+{
+position: absolute;
+left: 53%;
+display: flex;
+align-items: center;
+background-color: #2c2c2c;
+padding: 15px;
+border-radius: 10px;
+width: 260px;
+height: 80px;
+}
+
+.linkedln-box
+{
+    position: absolute;
+    left: 72%;
+    display: flex;
+    align-items: center;
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    height: 80px;  
+}
+
+.email-box img , .whatsapp-box img , .ınstagram-box img , .linkedln-box img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.email-text 
+{
+    color: white;
+}
+
+.whatsapp-button , .ınstagram-button , .linkedln-button
+{
+    background-color:gray;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.whatsapp-button:hover 
+{
+    background-color:darkcyan;
+}
+
+.ınstagram-button:hover
+{
+    background-color:darkcyan;
+}
+
+.linkedln-button:hover
+{
+    background-color:darkcyan;
+}
+
+.egitimim-container
+{
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+}
+
+.egitim-card
+{
+    background-color:#2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.Eğitimim
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: gray;
+}
+
+.subtitle
+{
+    color: gray;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.yıl 
+{
+    writing-mode: vertical-rl;
+    color: gray;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.card-content
+{
+    display: flex;
+}
